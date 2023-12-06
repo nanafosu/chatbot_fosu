@@ -1,0 +1,160 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "HELLO",
+                "hey",
+                "hi",
+                "what's up",
+                "greetings",
+                "how is it going",
+                "Goodmorning",
+                "Good morning",
+                "Good afternoon",
+                "Good evening"
+            ],
+            "response": [
+                "Hello!",
+                "Hey!",
+                "What can I do for you?",
+                "How may I help you?",
+                "greetings",
+                "hello"
+            ]
+        },
+        {
+            "tag": "azubi",
+            "patterns": [
+                "Tell me more about azubi africa.",
+                "What is azubi africa all about?",
+                "Can you explain what azubi africa does?"
+            ],
+            "response": [
+                "Azubi Africa is a tech talent accelerator that trains and connects young Africans to high-paying tech jobs in 6 months.",
+                "We are a social enterprise that aims to bridge the gap between Africa's tech talent and the global demand for skilled workers.",
+                "Our mission is to empower the next generation of African tech leaders by providing them with world-class education, mentorship, and career opportunities."
+            ]
+        },
+        {
+            "tag": "program",
+            "patterns": [
+                "What programs does azubi africa offer?",
+                "Tell me about the available courses.",
+                "What can I learn from azubi africa?"
+            ],
+            "response": [
+                "We offer three programs: front_end Development, Cloud Engineering, and Data Analytics. Each program lasts for 6 months and consists of online learning, live sessions, projects, and career support.",
+                "You can choose from three different tracks: Front-end Development, Cloud Engineering, and Data Analytics. All of them are designed to teach you the most relevant and in-demand skills in the tech industry.",
+                "Our programs are Front-end Development, Cloud Engineering, and Data Analytics. They are all 6-month long and include online courses, live classes, hands-on projects, and job placement assistance."
+            ]
+        },
+        {
+            "tag": "front_end",
+            "patterns": [
+                "What does the Front-end Development program cover?",
+                "Tell me more about the Front-end Development course.",
+                "What skills will I gain from the Front-end Development program?"
+            ],
+            "response": [
+                "The Front-end Development program teaches you how to build beautiful and interactive websites and web applications using HTML, CSS, JavaScript, and React.",
+                "In this program, you will learn the fundamentals of web development, such as HTML, CSS, JavaScript, and React. You will also work on real-world projects and build your own portfolio of websites and web apps.",
+                "This program covers the basics of web development, such as HTML, CSS, JavaScript, and React. You will also learn how to use tools like Git, GitHub, and VS Code. By the end of the program, you will have a portfolio of websites and web apps that you can showcase to employers."
+            ]
+        },
+        {
+            "tag": "cloud_engineering",
+            "patterns": [
+                "What does the cloud engineering program cover?",
+                "Tell me more about the cloud engineering course.",
+                "What skills will I gain from the Cloud engineering program?"
+            ],
+            "response": [
+                "The Cloud Engineering program teaches you how to design, deploy, and manage cloud-based applications and infrastructure using AWS, Azure, and Google Cloud Platform.",
+                "In this program, you will learn the fundamentals of cloud computing, such as AWS, Azure, and Google Cloud Platform. You will also work on real-world projects and build your own cloud-based solutions.",
+                "This program covers the basics of cloud computing, such as AWS, Azure, and Google Cloud Platform. You will also learn how to use tools like Docker, Kubernetes, and Terraform. By the end of the program, you will have a portfolio of cloud-based applications and infrastructure that you can showcase to employers."
+            ]
+        },
+        {
+            "tag": "data_analytics",
+            "patterns": [
+                "What does the Front-end Data analytics program cover?",
+                "Tell me more about the Data analytics course.",
+                "What skills will I gain from the Data analytics program?"
+            ],
+            "response": [
+                "The Data Analytics program teaches you how to collect, analyze, and visualize data using Python, SQL, and Tableau.",
+                "In this program, you will learn the fundamentals of data analysis, such as Python, SQL, and Tableau. You will also work on real-world projects and build your own data-driven solutions.",
+                "This program covers the basics of data analysis, such as Python, SQL, and Tableau. You will also learn how to use tools like Jupyter Notebook, Pandas, and Matplotlib. By the end of the program, you will have a portfolio of data analysis projects that you can showcase to employers."
+            ]
+        },
+        {
+            "tag": "tuition_fees",
+            "patterns": [
+                "How much does it cost to enroll in a program?",
+                "What are the tuition fees?",
+                "Can you provide details about payment options?"
+            ],
+            "response": [
+                "The tuition fee for each program is $2,000, which can be paid in installments or upfront with a 10% discount.",
+                "Each program costs $2,000, which can be paid in monthly installments of $333 or upfront with a 10% discount, making it $1,800.",
+                "The fee for each program is $2,000, which can be paid in six installments of $333 or upfront with a 10% discount, reducing it to $1,800."
+            ]
+        },
+        {
+            "tag": "jobs",
+            "patterns": [
+                "What job opportunities are available after completing a program?",
+                "Tell me about the job placements.",
+                "How does azubi africa help with employment?"
+            ],
+            "response": [
+                "We have partnered with over 100 companies across Africa and beyond to provide you with the best job opportunities in the tech industry.",
+                "Our network of employers includes over 100 companies from various sectors and regions that are looking for skilled tech talent like you.",
+                "We work with over 100 companies from different industries and locations that are hiring tech professionals with the skills that you will learn from us."
+            ]
+        },
+        {
+            "tag": "application",
+            "patterns": [
+                "How can I apply for a program?",
+                "What are the steps in the application process?",
+                "Explain the application requirements.",
+                "Register"
+            ],
+            "response": [
+                "To apply for our programs, you need to fill out an online form, take an aptitude test, and attend an interview.",
+                "The application process consists of three steps: filling out an online form, taking an aptitude test, and attending an interview.",
+                "You can apply for our programs by completing three steps: an online form, an aptitude test, and an interview."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "I need help with my application.",
+                "Can you assist me with program details?",
+                "I have some questions, can you help?"
+            ],
+            "response": [
+                "How can I help you? You can ask me anything about azubi africa, our programs, our fees, our jobs, or our application process.",
+                "What do you need help with? You can ask me any question about azubi africa, our programs, our fees, our jobs, or our application process.",
+                "What can I do for you? You can ask me any query about azubi africa, our programs, our fees, our jobs, or our application process."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "Thank you for your assistance.",
+                "Farewell",
+                "Bye"
+            ],
+            "response": [
+                "Thank you for chatting with me. I hope you have a great day.",
+                "It was nice talking to you. I hope you have a wonderful day.",
+                "I enjoyed chatting with you. I hope you have a fantastic day."
+            ]
+        }
+    ]
+}

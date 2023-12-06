@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PostgreSQL Local",
+            "database": "azubi_chatbot",
+            "username": "postgres",
+            "password": "itvaigv1986"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+/***************************************************************************
+* SQL CODE TO SETUP THE DATABASE AND TABLES TO RUN THE CHATBOT
+****************************************************************************/
+-- Create the azubi_chatbot database
+CREATE DATABASE azubi_chatbot;
+
+-- Connect to the azubi_chatbot database
+\c azubi_chatbot;
+
+-- Create the azubi_chat_history table
+CREATE TABLE azubi_chat_history (
+    id SERIAL PRIMARY KEY,
+    user_input TEXT,
+    bot_response TEXT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create the admin_users table
+CREATE TABLE admin_users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    hashed_password VARCHAR(255) NOT NULL
+);
+
+-- Insert username and password into admin_users table username = 'group5' password = 'password'
+DO $$ 
+BEGIN
+  IF NOT EXISTS (SELECT 1 FROM admin_users WHERE username = 'group5') THEN
+    INSERT INTO admin_users (username, hashed_password)
+    VALUES ('group5', crypt('password', gen_salt('bf')));
+  END IF;
+END $$;
+
